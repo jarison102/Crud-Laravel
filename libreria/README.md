@@ -1,18 +1,45 @@
-npm run dev 
+# Inicia el servidor de desarrollo
+npm run dev
+
+# Inicia el servidor local de Laravel
 php artisan serve
-php artisan serve  
+
+# Crea un conjunto de operaciones CRUD (crear, leer, actualizar, eliminar) para el modelo 'libros'
 php artisan make:crud libros
+
+# Publica los recursos del paquete de generación de CRUD con la etiqueta 'crud'
 php artisan vendor:publish --tag=crud
+
+# Requiere la instalación del generador de CRUD 'ibex/crud-generator' como dependencia de desarrollo
 composer require ibex/crud-generator --dev
+
+# Instala las vistas de interfaz de usuario de Bootstrap con autenticación
 php artisan ui bootstrap --auth
-composer require laravel/ui  
- php artisan migrate
- php artisan make:migration libros
- php artisan vendor:publish --tag=crud
- composer require ibex/crud-generator --dev
- php artisan ui bootstrap --auth
- composer require laravel/ui 
- composer require phpmailer/phpmailer
+
+# Instala el paquete de Laravel/UI para generar vistas de autenticación
+composer require laravel/ui
+
+# Ejecuta las migraciones de la base de datos
+php artisan migrate
+
+# Crea una migración para el modelo 'libros'
+php artisan make:migration libros
+
+# Publica los recursos del paquete de generación de CRUD con la etiqueta 'crud'
+php artisan vendor:publish --tag=crud
+
+# Requiere la instalación del generador de CRUD 'ibex/crud-generator' como dependencia de desarrollo
+composer require ibex/crud-generator --dev
+
+# Instala las vistas de interfaz de usuario de Bootstrap con autenticación
+php artisan ui bootstrap --auth
+
+# Instala el paquete de Laravel/UI para generar vistas de autenticación
+composer require laravel/ui
+
+# Requiere la instalación del paquete PHPMailer para manejar el envío de correos electrónicos
+composer require phpmailer/phpmailer
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
