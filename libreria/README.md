@@ -1,3 +1,18 @@
+npm run dev 
+php artisan serve
+php artisan serve  
+php artisan make:crud libros
+php artisan vendor:publish --tag=crud
+composer require ibex/crud-generator --dev
+php artisan ui bootstrap --auth
+composer require laravel/ui  
+ php artisan migrate
+ php artisan make:migration libros
+ php artisan vendor:publish --tag=crud
+ composer require ibex/crud-generator --dev
+ php artisan ui bootstrap --auth
+ composer require laravel/ui 
+ composer require phpmailer/phpmailer
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
