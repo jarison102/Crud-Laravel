@@ -1,21 +1,30 @@
 
-php artisan config:clear: Este comando se utiliza para borrar la caché de configuración de Laravel. Si has realizado cambios en los archivos de configuración de tu aplicación (ubicados en la carpeta config), ejecutar este comando asegurará que los cambios se reflejen correctamente.
+# Borrar la caché de configuración
+php artisan config:clear
 
-php artisan view:clear: Se utiliza para borrar la caché de vistas. Si has realizado cambios en las vistas de tu aplicación (archivos .blade.php), ejecutar este comando garantiza que los cambios se tomen en cuenta y se vuelvan a generar las vistas cacheadas.
+# Borrar la caché de vistas
+php artisan view:clear
 
-php artisan route:clear: Este comando borra la caché de rutas. Si has realizado cambios en las definiciones de rutas (archivo routes/web.php o routes/api.php), ejecutar este comando asegurará que las rutas se vuelvan a registrar correctamente.
+# Borrar la caché de rutas
+php artisan route:clear
 
-php artisan config:cache: Combina y cachea la configuración de tu aplicación en un solo archivo para mejorar el rendimiento de carga. Es útil en entornos de producción.
+# Combinar y cachea la configuración
+php artisan config:cache
 
-php artisan migrate:reset: Deshace todas las migraciones ejecutadas previamente, lo que significa que revierte todos los cambios en la base de datos.
+# Deshacer todas las migraciones
+php artisan migrate:reset
 
-php artisan migrate:rollback: Deshace la última migración ejecutada, lo que significa que revierte el último cambio en la base de datos.
+# Deshacer la última migración
+php artisan migrate:rollback
 
-php artisan migrate:refresh: Deshace y luego ejecuta nuevamente todas las migraciones, lo que te permite reiniciar la base de datos a su estado inicial y luego aplicar todas las migraciones nuevamente.
+# Reiniciar y ejecutar todas las migraciones
+php artisan migrate:refresh
 
-php artisan migrate:status: Muestra el estado actual de todas las migraciones en la base de datos, indicando cuáles se han ejecutado y cuáles no.
+# Mostrar el estado de las migraciones
+php artisan migrate:status
 
-composer dump-autoload: Actualiza el archivo de carga automática de clases de Composer, que se utiliza para cargar automáticamente las clases de tu proyecto. Se utiliza después de realizar cambios en la estructura de carpetas o en las clases para que Composer siga siendo capaz de cargar las clases correctamente.
+# Actualizar el archivo de carga automática de clases
+composer dump-autoload
 
 # Inicia el servidor de desarrollo
 npm run dev
