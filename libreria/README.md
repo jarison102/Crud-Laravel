@@ -62,8 +62,6 @@ composer require ibex/crud-generator --dev
 # Instala las vistas de interfaz de usuario de Bootstrap con autenticación
 php artisan ui bootstrap --auth
 
-# Instala el paquete de Laravel/UI para generar vistas de autenticación
-composer require laravel/ui
 
 # Requiere la instalación del paquete PHPMailer para manejar el envío de correos electrónicos
 composer require phpmailer/phpmailer
