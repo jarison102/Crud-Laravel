@@ -38,9 +38,6 @@ php artisan make:crud libros
 # Publica los recursos del paquete de generación de CRUD con la etiqueta 'crud'
 php artisan vendor:publish --tag=crud
 
-# Requiere la instalación del generador de CRUD 'ibex/crud-generator' como dependencia de desarrollo
-composer require ibex/crud-generator --dev
-
 # Instala las vistas de interfaz de usuario de Bootstrap con autenticación
 php artisan ui bootstrap --auth
 
