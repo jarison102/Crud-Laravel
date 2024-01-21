@@ -33,31 +33,29 @@ npm run dev
 php artisan serve
 
 # Crea un conjunto de operaciones CRUD (crear, leer, actualizar, eliminar) para el modelo 'libros'
-php artisan make:crud libros
+8) php artisan make:crud libros
 
-# Publica los recursos del paquete de generación de CRUD con la etiqueta 'crud'
-php artisan vendor:publish --tag=crud
 
 # Instala las vistas de interfaz de usuario de Bootstrap con autenticación
-php artisan ui bootstrap --auth
+3) php artisan ui bootstrap --auth
 
 # Instala el paquete de Laravel/UI para generar vistas de autenticación
-composer require laravel/ui
+2) composer require laravel/ui
 
 # Ejecuta las migraciones de la base de datos
-php artisan migrate
+4) php artisan migrate
 
 # Crea una migración para el modelo 'libros'
-php artisan make:migration libros
+1) php artisan make:migration libros
 
 # Publica los recursos del paquete de generación de CRUD con la etiqueta 'crud'
-php artisan vendor:publish --tag=crud
+7) php artisan vendor:publish --tag=crud
 
 # Requiere la instalación del generador de CRUD 'ibex/crud-generator' como dependencia de desarrollo
-composer require ibex/crud-generator --dev
+6) composer require ibex/crud-generator --dev
 
 # Instala las vistas de interfaz de usuario de Bootstrap con autenticación
-php artisan ui bootstrap --auth
+5) php artisan ui bootstrap --auth
 
 
 # Requiere la instalación del paquete PHPMailer para manejar el envío de correos electrónicos
